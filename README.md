@@ -19,7 +19,7 @@ There's already a few examples of how to retrieve the information for a LIVE str
 As I'm working on the Java example I can outline the calls that should be made in order to get the M3U8 file for your desired HLS vod. These are the steps I currently take
 
 **Retrieve an access token for a specific HLS VOD**  
-[https://api.twitch.tv/api/vods/{vodId}/access_token](https://api.twitch.tv/api/vods/{vodId}/access_token)
+[https://api.twitch.tv/api/vods/{vodId}/access_token?client_id={clientId}](https://api.twitch.tv/api/vods/{vodId}/access_token)
 
 The {vodId} should be the ID without the prefix letter, so 'v1234567' becomes '1234567'
 
